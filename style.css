@@ -93,6 +93,7 @@ body {
     height: 30vw;
     max-width: 150px;
     max-height: 150px;
+    -webkit-user-drag: none;
 }
 
 h2 {
@@ -114,7 +115,7 @@ h2 {
 
 @keyframes flying {
     0% {
-        bottom: -100px;
+        bottom: 100px;
     }
 
     100% {
